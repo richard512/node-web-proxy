@@ -1,6 +1,6 @@
 # node-web-proxy
 
-HTTP proxy works, but not yet HTTPS. Help?
+HTTP proxy works, but not yet HTTPS. <i>Help?</i>
 
 <h5>1) Get the required node modules</h5>
 npm install http https request express
