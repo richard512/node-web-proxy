@@ -1,4 +1,4 @@
-function Crypto() {
+function CryptoService() {
 	var fs = require('fs');
 	var NodeRSA = require('node-rsa');
 	var privateKey = new Buffer(fs.readFileSync('./ssl/privatekey.pem.base64', 'utf8'), 'base64').toString('utf8');
